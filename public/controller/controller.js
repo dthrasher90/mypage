@@ -16,7 +16,7 @@ app.config(function($routeProvider) {
             controller: "controller"
         })
         .when("/portfolio", {
-            templateUrl: "partials/html",
+            templateUrl: "partials/portfolio.html",
             controller: "controller"
         })
         .when("/contact", {
