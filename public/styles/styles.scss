@@ -68,5 +68,32 @@ ul{
 .aboutBody{
   height: 100%;
   width: 100%;
+  padding: 3px;
   background-color: papayawhip;
+  h1{
+    font-size: 64px;
+    font-family: satisfy;
+    padding-top: 100px;
+    padding-left: 5px;
+    color: saddlebrown;
+  }
+  img{
+    height:300px;
+    width:  230px;
+
+    float: right;
+    padding: 15px;
+    padding-right: 15px;
+
+
+  }
+  p{
+      padding-top: 50px;
+      padding-left: 15px;
+      color: SaddleBrown;
+      font-size: 24px;
+      font-weight: bold;
+
+  }
+
 }
