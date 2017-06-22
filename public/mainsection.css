@@ -1,0 +1,28 @@
+body{
+
+        min-height: 100vh;
+        min-width: 100%;
+        background-image: url('utah9.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: papayawhip;
+    }
+}
+.title {
+    width: 600px;
+    height: 200px;
+    float: right;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 125px;
+    padding-left: 15px;
+    color: papayawhip;
+}
+.title h1 {
+  font-family: Satisfy;
+  font-size: 64px;
+  color:papayawhip}
+.title p {
+  font-family: lato;
+  font-size: 32px;
+  color:papayawhip;}
