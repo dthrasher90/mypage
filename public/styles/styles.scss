@@ -88,7 +88,6 @@ ul{
   }
   img{
     float: right;
-
   }
 }
 
@@ -103,8 +102,47 @@ ul{
     font-size: 64px;
     font-family: satisfy;
     color: saddlebrown;
+
+  }
+
+}
+
+.projectWrapper{
+
+  height: 505px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 5px solid black;
+  overflow: scroll;
+   &:after{
+     content: "";
+     display: block;
+     clear: both;
+
+   }
+
+  img{
+    height: 500px;
+    width: 500px;
+    float: left;
+
+
   }
 
 
 
+}
+
+.projectInfo{
+    height: 500px;
+    width: 460px;
+    border: 1px solid lime;
+    float: right;
+
+    h2{
+      text-align: center;
+      font-family: lato;
+      padding: 10px;
+      text-decoration: underline;
+    }
 }
