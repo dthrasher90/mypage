@@ -110,9 +110,9 @@ ul{
 .projectWrapper{
 
   height: 505px;
-  width: 1000px;
+  width: 1030px;
   margin: 0 auto;
-  border: 5px solid black;
+  border: 3px solid black;
   overflow: scroll;
    &:after{
      content: "";
@@ -125,6 +125,8 @@ ul{
     height: 500px;
     width: 500px;
     float: left;
+    padding-bottom: 25px;
+
 
 
   }
@@ -133,10 +135,17 @@ ul{
 
 }
 
+.project1{
+  padding :15px;
+}
+
+.project2{
+  padding: 15px;
+}
 .projectInfo{
     height: 500px;
     width: 460px;
-    border: 1px solid lime;
+    // border: 1px solid lime;
     float: right;
 
     h2{
@@ -145,4 +154,11 @@ ul{
       padding: 10px;
       text-decoration: underline;
     }
+}
+
+
+.icons{
+    margin-left: 90px;
+    margin-top: 70px;
+
 }

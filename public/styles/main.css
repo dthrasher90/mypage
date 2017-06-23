@@ -80,9 +80,9 @@ ul a {
 
 .projectWrapper {
   height: 505px;
-  width: 1000px;
+  width: 1030px;
   margin: 0 auto;
-  border: 5px solid black;
+  border: 3px solid black;
   overflow: scroll; }
   .projectWrapper:after {
     content: "";
@@ -91,15 +91,25 @@ ul a {
   .projectWrapper img {
     height: 500px;
     width: 500px;
-    float: left; }
+    float: left;
+    padding-bottom: 25px; }
+
+.project1 {
+  padding: 15px; }
+
+.project2 {
+  padding: 15px; }
 
 .projectInfo {
   height: 500px;
   width: 460px;
-  border: 1px solid lime;
   float: right; }
   .projectInfo h2 {
     text-align: center;
     font-family: lato;
     padding: 10px;
     text-decoration: underline; }
+
+.icons {
+  margin-left: 90px;
+  margin-top: 70px; }
