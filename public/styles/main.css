@@ -17,8 +17,6 @@ ul li {
   ul li:hover {
     background-color: grey;
     color: white; }
-    ul li:hover:focus {
-      background: #e0e0e0; }
 
 ul a {
   text-decoration: none;
@@ -32,6 +30,12 @@ ul a {
   background-image: url("utah9.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  @media screen and (max-width: 767px) {
+    #titlePage {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
 
 .title {
   width: 600px;
@@ -50,30 +54,36 @@ ul a {
     font-size: 32px;
     color: papayawhip; }
 
-#aboutBody {
+#about {
   height: 100vh;
   width: 100%;
   background-color: papayawhip;
   padding: 5px; }
-  #aboutBody h1 {
+  @media screen and (max-width: 767px) {
+    #about {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  #about h1 {
     color: saddlebrown;
     font-size: 64px;
     padding-top: 100px;
     padding-left: 15px;
     font-family: satisfy; }
-  #aboutBody p {
+  #about p {
     color: saddlebrown;
     font-weight: bold;
     font-size: 20px;
     padding-left: 15px; }
-  #aboutBody img {
+  #about img {
     float: right; }
 
-#portfolioBody {
+#portfolio {
   height: 100vh;
   width: 100%;
   background-color: papayawhip; }
-  #portfolioBody h1 {
+  #portfolio h1 {
     padding-top: 100px;
     padding-left: 15px;
     font-size: 64px;
@@ -92,19 +102,22 @@ ul a {
     clear: both; }
   .projectWrapper img {
     height: 500px;
-    width: 500px;
+    width: 600px;
     float: left;
     padding-bottom: 25px; }
 
-.project1 {
-  padding: 15px; }
-
 .project2 {
-  padding: 15px; }
+  padding-top: 20px; }
+
+.project3 {
+  padding-top: 20px; }
+
+.project4 {
+  padding-top: 20px; }
 
 .projectInfo {
   height: 500px;
-  width: 460px;
+  width: 360px;
   float: right; }
   .projectInfo h2 {
     text-align: center;
@@ -116,10 +129,19 @@ ul a {
   margin-left: 90px;
   margin-top: 70px; }
 
-#contactBody {
+#blog {
   height: 100vh;
   width: 100%;
   background-color: papayawhip; }
+
+#contact {
+  height: 100vh;
+  width: 100%;
+  background-color: papayawhip; }
+
+.contactInfo {
+  height: 500px;
+  width: 100%; }
 
 footer {
   height: 60px;

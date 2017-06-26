@@ -1,3 +1,11 @@
+@mixin mQ($arg){
+  @media screen and (max-width: $arg){
+    @content;
+  }
+}
+
+
+
 html, body{
 
   height: 100%;
@@ -11,6 +19,7 @@ nav{
   z-index: 1;
 }
 
+
 ul{
   li{
     float: left;
@@ -20,9 +29,7 @@ ul{
     &:hover{
       background-color: grey;
       color: white;
-    &:focus{
-       background: #e0e0e0;
-    }
+
     }
   }
   a{
@@ -42,7 +49,10 @@ ul{
   background-image: url('utah9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  @include mQ(767px){
+    display: flex;
 
+  }
 
 }
 
@@ -68,11 +78,16 @@ ul{
    }
 }
 
-#aboutBody{
+#about{
   height: 100vh;
   width: 100%;
   background-color: papayawhip;
   padding: 5px;
+
+  @include mQ(767px){
+    display: flex;
+
+  }
 
   h1{
     color: saddlebrown;
@@ -94,7 +109,7 @@ ul{
   }
 }
 
-#portfolioBody{
+#portfolio{
   height: 100vh;
   width: 100%;
   background-color: papayawhip;
@@ -126,29 +141,31 @@ ul{
 
   img{
     height: 500px;
-    width: 500px;
+    width: 600px;
     float: left;
     padding-bottom: 25px;
 
-
-
   }
-
-
-
 }
 
 .project1{
-  padding :15px;
+
 }
 
 .project2{
-  padding: 15px;
+  padding-top : 20px;
+}
+
+.project3{
+  padding-top :20px;
+}
+
+.project4{
+  padding-top: 20px;
 }
 .projectInfo{
     height: 500px;
-    width: 460px;
-    // border: 1px solid lime;
+    width: 360px;
     float: right;
 
     h2{
@@ -166,10 +183,24 @@ ul{
 
 }
 
-#contactBody{
+#blog{
   height: 100vh;
   width: 100%;
   background-color: papayawhip;
+
+}
+
+#contact{
+  height: 100vh;
+  width: 100%;
+  background-color: papayawhip;
+
+}
+
+.contactInfo{
+  height: 500px;
+  width: 100%;
+
 
 }
 
