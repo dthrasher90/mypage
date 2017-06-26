@@ -24,7 +24,7 @@ ul a {
   text-align: center;
   color: white; }
 
-.titlePage {
+#titlePage {
   height: 100%;
   width: 100%;
   background-image: url("utah9.jpg");
@@ -48,30 +48,30 @@ ul a {
     font-size: 32px;
     color: papayawhip; }
 
-.aboutBody {
+#aboutBody {
   height: 100%;
   width: 100%;
   background-color: papayawhip;
   padding: 5px; }
-  .aboutBody h1 {
+  #aboutBody h1 {
     color: saddlebrown;
     font-size: 64px;
     padding-top: 100px;
     padding-left: 15px;
     font-family: satisfy; }
-  .aboutBody p {
+  #aboutBody p {
     color: saddlebrown;
     font-weight: bold;
     font-size: 20px;
     padding-left: 15px; }
-  .aboutBody img {
+  #aboutBody img {
     float: right; }
 
-.portfolioBody {
+#portfolioBody {
   height: 100%;
   width: 100%;
   background-color: papayawhip; }
-  .portfolioBody h1 {
+  #portfolioBody h1 {
     padding-top: 100px;
     padding-left: 15px;
     font-size: 64px;
