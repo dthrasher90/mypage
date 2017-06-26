@@ -20,6 +20,9 @@ ul{
     &:hover{
       background-color: grey;
       color: white;
+    &:focus{
+       background: #e0e0e0;
+    }
     }
   }
   a{
@@ -66,7 +69,7 @@ ul{
 }
 
 #aboutBody{
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: papayawhip;
   padding: 5px;
@@ -92,7 +95,7 @@ ul{
 }
 
 #portfolioBody{
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: papayawhip;
 
@@ -161,4 +164,18 @@ ul{
     margin-left: 90px;
     margin-top: 70px;
 
+}
+
+#contactBody{
+  height: 100vh;
+  width: 100%;
+  background-color: papayawhip;
+
+}
+
+footer{
+  height: 60px;
+  border-top: 1px solid saddlebrown;
+  text-align: center;
+  padding-top: 20px;
 }
