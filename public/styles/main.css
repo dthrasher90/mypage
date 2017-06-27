@@ -108,9 +108,23 @@ ul a {
         font-size: 34px; }
       #portfolio p {
         font-size: 24px; }
+      #portfolio h2 {
+        font-size: 28px; }
       #portfolio .projectWrapper {
         height: 250px;
-        width: 500px; } }
+        width: 500px; }
+        #portfolio .projectWrapper img {
+          height: 225px;
+          width: 300px;
+          float: left; }
+        #portfolio .projectWrapper .projectInfo {
+          height: 225px;
+          width: 130px;
+          float: right; }
+          #portfolio .projectWrapper .projectInfo p {
+            display: none; }
+        #portfolio .projectWrapper .icons {
+          display: none; } }
 
 .projectWrapper {
   height: 505px;
@@ -128,15 +142,6 @@ ul a {
     float: left;
     padding-bottom: 25px; }
 
-.project2 {
-  padding-top: 20px; }
-
-.project3 {
-  padding-top: 20px; }
-
-.project4 {
-  padding-top: 20px; }
-
 .projectInfo {
   height: 500px;
   width: 360px;
@@ -146,6 +151,15 @@ ul a {
     font-family: lato;
     padding: 10px;
     text-decoration: underline; }
+
+.project2 {
+  padding-top: 20px; }
+
+.project3 {
+  padding-top: 20px; }
+
+.project4 {
+  padding-top: 20px; }
 
 .icons {
   margin-left: 90px;

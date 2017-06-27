@@ -164,12 +164,34 @@ ul{
           font-size: 24px;
         }
 
+        h2{
+          font-size: 28px;
+        }
+
         .projectWrapper{
           height: 250px;
           width: 500px;
-        }
 
-    }
+          img{
+            height: 225px;
+            width: 300px;
+            float: left;
+          }
+
+        .projectInfo{
+          height: 225px;
+          width:  130px;
+          float: right;
+            p{
+              display: none;
+            }
+
+          }
+        .icons{
+          display: none;
+        }
+  }
+}
 }
 
 .projectWrapper{
@@ -195,6 +217,21 @@ ul{
   }
 
 }
+.projectInfo{
+    height: 500px;
+    width: 360px;
+    float: right;
+
+    h2{
+      text-align: center;
+      font-family: lato;
+      padding: 10px;
+      text-decoration: underline;
+    }
+}
+
+
+
 
 .project1{
 
@@ -210,18 +247,6 @@ ul{
 
 .project4{
   padding-top: 20px;
-}
-.projectInfo{
-    height: 500px;
-    width: 360px;
-    float: right;
-
-    h2{
-      text-align: center;
-      font-family: lato;
-      padding: 10px;
-      text-decoration: underline;
-    }
 }
 
 
