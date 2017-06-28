@@ -94,7 +94,7 @@ ul a {
     text-decoration: underline; }
   .project1 img {
     height: 400px;
-    width: 500px; }
+    width: 550px; }
 
 .project2 {
   margin-left: 80px; }
@@ -103,7 +103,7 @@ ul a {
     text-decoration: underline; }
   .project2 img {
     height: 400px;
-    width: 500px; }
+    width: 550px; }
 
 .project3 {
   margin-left: 80px; }
@@ -112,7 +112,16 @@ ul a {
     text-decoration: underline; }
   .project3 img {
     height: 400px;
-    width: 500px; }
+    width: 550px; }
+
+.project4 {
+  margin-left: 80px; }
+  .project4 h2 {
+    text-align: center;
+    text-decoration: underline; }
+  .project4 img {
+    height: 400px;
+    width: 550px; }
 
 .icons {
   margin-left: 90px;
