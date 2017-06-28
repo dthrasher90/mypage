@@ -70,6 +70,12 @@ ul a {
     padding-left: 15px; }
   #about img {
     float: right; }
+  #about a {
+    color: darkslategrey; }
+    #about a:visited {
+      color: none; }
+    #about a:hover {
+      color: saddlebrown; }
 
 #portfolio {
   height: 100%;
@@ -129,7 +135,7 @@ ul a {
   margin: 0 auto; }
 
 #blog {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background-color: papayawhip; }
   #blog h1 {
@@ -139,23 +145,16 @@ ul a {
     padding-left: 15px;
     color: saddlebrown; }
 
-#contact {
-  height: 100vh;
-  width: 100%;
-  background-color: papayawhip; }
-  #contact h1 {
-    font-family: satisfy;
-    font-size: 64px;
-    padding-top: 100px;
-    padding-left: 15px;
-    color: saddlebrown; }
-
-.contactInfo {
-  height: 90vh;
-  width: 100%; }
-
 footer {
   height: 10vh;
+  width: 100%;
   border-top: 1px solid saddlebrown;
-  text-align: center;
-  padding-top: 20px; }
+  margin: 0 auto;
+  background-color: papayawhip;
+  text-align: center; }
+  footer a {
+    color: darkslategrey; }
+    footer a:visited {
+      color: none; }
+    footer a:hover {
+      color: saddlebrown; }
