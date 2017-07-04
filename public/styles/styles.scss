@@ -132,12 +132,19 @@ ul{
 
 .card-group{
   margin: 0 auto;
+  padding: 15px;
 }
 .card{
 
 width:23%;
 float: left;
-border: 1px solid grey;
+font-family: lato;
+font-size: 18px;
+font-weight: bolder;
+background-color: lightcyan;
+color: saddlebrown;
+border: 3px solid darkslategrey;
+padding: 1px;
 
   img{
     margin: 0 auto;
@@ -145,6 +152,7 @@ border: 1px solid grey;
   }
   h4{
     text-align: center;
+    font-weight: bold;
   }
   p{
     text-align: center;
@@ -154,8 +162,6 @@ border: 1px solid grey;
 }
 
 
-
-
 .icons{
     text-align: center;
 }
@@ -163,7 +169,6 @@ border: 1px solid grey;
 #blog{
   height: 90vh;
   width: 100%;
-
   background-color: papayawhip;
 
   h1{
@@ -173,8 +178,6 @@ border: 1px solid grey;
     padding-left: 15px;
     color: saddlebrown;
   }
-
-
 }
 
 
@@ -195,6 +198,11 @@ footer{
     }
     &:hover {
     color: saddlebrown;
+    }
+
+    img{
+      float: right;
+
     }
   }
 
