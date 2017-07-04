@@ -9,11 +9,12 @@
 
 html{
   height: 100%;
+  box-sizing: border-box;
 }
 
-body{
-  min-height: 100vh;
-}
+// body{
+//   min-height: 100vh;
+// }
 nav{
   height: 60px;
   width: 100%;
@@ -22,7 +23,11 @@ nav{
   z-index: 1;
 }
 
-
+.jumbotron{
+  height: 650px;
+  border: 3px slategrey;
+  background-repeat: no-repeat;
+}
 ul{
 
   li{
@@ -52,10 +57,11 @@ ul{
 #titlePage{
   height: 100vh;
   width: 100%;
-  background-image: url('utah9.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-
+  // background-image: url('utah9.jpg');
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  position: relative;
+  background-color: papayawhip;
 
 
 
@@ -123,7 +129,7 @@ ul{
 }
 
 #portfolio{
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: papayawhip;
 
@@ -137,63 +143,79 @@ ul{
       }
 
 }
+.card{
 
-.projectInfo{
-  height:400px;
-  width: 500px;
-  margin-left: 200px;
-}
+width:25%;
+float: left;
+border: 1px solid grey;
+// margin-left: 50px;
 
-.project1{
- margin-left: 80px;
-  h2{
+  h4{
     text-align: center;
-    text-decoration: underline;
   }
-  img {
-  height: 400px;
-  width: 550px;
-  }
+
 }
 
-.project2{
-margin-left: 80px;
-  h2{
-    text-align: center;
-    text-decoration: underline;
-  }
-  img {
-  height: 400px;
-  width: 550px;
-  }
+.after-box {
+    clear: left;
+    border: 3px solid red;
 }
-
-
-.project3{
- margin-left: 80px;
-  h2{
-    text-align: center;
-    text-decoration: underline;
-  }
-  img{
-    height: 400px;
-    width: 550px;
-
-  }
-}
-
-.project4{
- margin-left: 80px;
-  h2{
-    text-align: center;
-    text-decoration: underline;
-  }
-  img{
-    height: 400px;
-    width: 550px;
-
-  }
-}
+// .projectInfo{
+//   height:400px;
+//   width: 500px;
+//   margin-left: 200px;
+// }
+//
+// .project1{
+//  margin-left: 80px;
+//   h2{
+//     text-align: center;
+//     text-decoration: underline;
+//   }
+//   img {
+//   height: 400px;
+//   width: 550px;
+//   }
+// }
+//
+// .project2{
+// margin-left: 80px;
+//   h2{
+//     text-align: center;
+//     text-decoration: underline;
+//   }
+//   img {
+//   height: 400px;
+//   width: 550px;
+//   }
+// }
+//
+//
+// .project3{
+//  margin-left: 80px;
+//   h2{
+//     text-align: center;
+//     text-decoration: underline;
+//   }
+//   img{
+//     height: 400px;
+//     width: 550px;
+//
+//   }
+// }
+//
+// .project4{
+//  margin-left: 80px;
+//   h2{
+//     text-align: center;
+//     text-decoration: underline;
+//   }
+//   img{
+//     height: 400px;
+//     width: 550px;
+//
+//   }
+// }
 
 
 .icons{
@@ -228,15 +250,7 @@ footer{
   margin: 0 auto;
   background-color: papayawhip;
   text-align: center;
-  // section{
-  //   height: 200px;
-  //   width: 500px;
-  //   margin: 0 auto;
-  //   font-size: 18px;
-  //   font-weight: bolder;
-  //   color: saddlebrown;
-  //   margin: 0 auto;
-  // }
+
   a{
     color: darkslategrey;
 

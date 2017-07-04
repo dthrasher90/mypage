@@ -14,23 +14,24 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/ffafbe8b8e.js"></script>
-    <!-- <link rel="stylesheet" href="/styles/reset.css"> -->
+    <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/main.css">
 
 </head>
 
 <body>
-<div class="container-fluid h-100">
+
+
+
+<div class="container no-gutters">
   <div class="row">
 
 
-            <nav>
+            <nav class="navbar navbar">
                 <ul>
                     <li> <a href="#">Home </a></li>
                     <li><a href="#about">About </a></li>
@@ -40,10 +41,18 @@
             </nav>
 
             <div id="titlePage">
-                <div class="title">
-                    <h1>Drew Thrasher</h1>
-                    <p>Web Developer | Salt Lake City, UT</p>
+              <div class="jumbotron jumbotron-fluid" style="background-image: url(styles/utah10.jpg); background-size: 100%;">
+                <div class="container">
+                  <h1 class="display-3">Fluid jumbotron</h1>
+                  <p class="lead"></p>
+                  <div class="title">
+                      <h1>Drew Thrasher</h1>
+                      <p>Web Developer | Salt Lake City, UT</p>
+                  </div>
                 </div>
+              </div>
+
+            
             </div>
   <div id="about">
 
@@ -56,100 +65,89 @@
 
           <p>I am very excited about perusing a new care in web development. I have been intently studying web design and web app development over the past year. I am very proficient with some of the popular technologies such as HTML, JS, NodeJS, AngularJS,
               Sass, Grunt and GitHub. I am currently learning Python and Django. Most of my work can be found in the profiles section. My best work is Head Coach, an HTML5 web game utilizing Phaser and Angular. It combines the best aspects of football
-              and role playing into a unique experience, only found here. I am very interested in pursuing a career in the industry, feel free to drop me a line! </br>  <a href="mailto:dthrasher90@gmail.com?Subject=Hello%20again">  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></p>
+              and role playing into a unique experience, only found here. I am very interested in pursuing a career in the industry.  You can check out my resume
+              in the footer.  Feel free to drop me a line! </br>  <a href="mailto:dthrasher90@gmail.com?Subject=Hello%20again">  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></p>
 
   </div>
+
+
         <div id="portfolio">
+          <div class="row clearfix">
+
+            <div class="row">
 
 
 
 
                 <h1>Portfolio</h1>
 
+                <div class="card" >
+                  <img class="card-img-top" src="styles/headcoach.png" style: "height=300px; width= 300px;">
+                  <div class="card-block">
+                    <h4 class="card-title">Head Coach</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-                    <div class="d-inline-flex p-2 project1">
+                    <div class="icons">
+                       <img src="styles/images/js.png" style="height:30px;width:30px">
+                       <img src="styles/images/angular.png" style="height:30px;width:30px">
+                       <img src="styles/images/phaser.png" style="height:30px;width:30px">
+                       <img src="styles/images/bootstrap.png" style="height:30px;width:30px">
+                   </div>
+                  </div>
+                </div>
 
-                      <a href="https://football4.herokuapp.com/#!/">  <img src="styles/headcoach.png" ></a>
-
-                        <div class="projectInfo">
-                            <h2> Head Coach</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                                  <div class="icons">
-                                      <img src="styles/images/js.png" style="height:60px;width:50px">
-                                      <img src="styles/images/angular.png" style="height:60px;width:60px">
-                                      <img src="styles/images/phaser.png" style="height:60px;width:60px">
-                                      <img src="styles/images/bootstrap.png" style="height:60px;width:60px">
-                                  </div>
-                        </div>
-                    </div>
-
-
-                    <div class="d-inline-flex p-2 project2">
-
-                            <a href="https://usdconverter.herokuapp.com/"><img src="styles/usdcrop.jpg" ></a>
-
-
-                        <div class="projectInfo">
-                            <h2> US Dollar Converter</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                                <div class="icons">
-                                    <img src="styles/images/js.png" style="height:60px;width:50px">
-                                    <img src="styles/images/angular.png" style="height:60px;width:60px">
-                                    <img src="styles/images/bootstrap.png" style="height:60px;width:60px">
-                                </div>
-                        </div>
-                    </div>
-
-
-
-                  <div class="d-inline-flex p-2 project3">
-
-                        <a href="https://coffeelocator.herokuapp.com/">   <img src="styles/coffeefinder.jpg"> </a>
-
-
-                            <div  class="projectInfo">
-                                <h2> RESTful Coffee Locator App</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                                <div class="icons">
-                                    <img src="styles/images/js.png" style="height:60px;width:50px">
-                                    <img src="styles/images/angular.png" style="height:60px;width:60px">
-                                    <img src="styles/images/bootstrap.png" style="height:60px;width:60px">
-                                </div>
-
-
-                          </div>
+                <div class="card" >
+                  <img class="card-img-top" src="styles/usdcrop.jpg" style: "height=300px; width= 300px;">
+                  <div class="card-block">
+                    <h4 class="card-title">USD Converter</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="icons">
+                      <div class="icons">
+                         <img src="styles/images/angular.png" style="height:30px;width:30px">
+                         <img src="styles/images/phaser.png" style="height:30px;width:30px">
+                         <img src="styles/images/bootstrap.png" style="height:30px;width:30px">
+                     </div>
+                   </div>
                   </div>
 
-                  <div class="d-inline-flex p-2 project3">
-
-                        <a href="https://contact4.herokuapp.com/">   <img src="styles/contactlist.png"> </a>
-
-                            <div  class="projectInfo">
-                                <h2>Contact List</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                    a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-                                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                                    <div class="icons">
-                                        <img src="styles/images/mean.jpg" style="height:60px;width:0px">
-                                        <img src="styles/images/angular.png" style="height:60px;width:60px">
-                                        <img src="styles/images/bootstrap.png" style="height:60px;width:60px">
-                                    </div>
+                </div>
 
 
-                          </div>
+
+                <div class="card">
+                  <img class="card-img-top" src="styles/coffeefinder.jpg" style: "height=300px; width= 300px;">
+                  <div class="card-block">
+                    <h4 class="card-title">Coffee Locator</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    <div class="icons">
+                       <img src="styles/images/angular.png" style="height:30px;width:30px">
+                       <img src="styles/images/phaser.png" style="height:30px;width:30px">
+                       <img src="styles/images/bootstrap.png" style="height:30px;width:30px">
+                   </div>
+
                   </div>
+                </div>
+
+                  <div class="card">
+                    <img class="card-img-top" src="styles/contactlist.png" style: "height=300px; width= 300px;">
+                    <div class="card-block">
+                      <h4 class="card-title">Contact List</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                      <div class="icons">
+                         <img src="styles/images/angular.png" style="height:30px;width:30px">
+                         <img src="styles/images/phaser.png" style="height:30px;width:30px">
+                         <img src="styles/images/bootstrap.png" style="height:30px;width:30px">
+                     </div>
+                    </div>
+                  </div>
+
+
+              </div>
             </div>
 
+        </div>
 
 
 
@@ -157,14 +155,14 @@
 
 
 
-
+<!--
 
             <div id="blog">
 
                 <h1>Blog</h1>
 
             </div>
-
+ -->
 
 
 
@@ -181,7 +179,7 @@
 
            </div> -->
 
-
+<!--
                 <footer> <i class="fa fa-copyright" aria-hidden="true"></i> Drew Thrasher 2017
 
                   <section>
@@ -189,9 +187,7 @@
                       <a href="https://github.com/dthrasher90/"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                       <a href="https://docs.google.com/document/d/1Hl9Kt8M3jtLDLeM0AslQ5RMUwWsNQWO9MzVuSg5S2dc/pub"> <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
                   </section>
-                </footer>
-
-            <!-- </div>
+                </footer> -->
 
       </div>
     </div>
