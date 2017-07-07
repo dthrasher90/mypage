@@ -28,9 +28,10 @@ ul li {
 
 ul a {
   text-decoration: none;
-  display: block;
+  float: left;
   text-align: center;
-  color: white; }
+  color: white;
+  display: block; }
 
 #titlePage {
   height: 100vh;
@@ -91,6 +92,9 @@ ul a {
     font-family: satisfy;
     color: saddlebrown; }
 
+.cardholder {
+  margin: 0 auto; }
+
 .card-group {
   margin: 0 auto;
   padding: 15px; }
@@ -101,10 +105,27 @@ ul a {
   font-family: lato;
   font-size: 18px;
   font-weight: bolder;
-  background-color: lightcyan;
-  color: saddlebrown;
-  border: 3px solid darkslategrey;
-  padding: 1px; }
+  background-color: #eee;
+  color: slategrey;
+  padding: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-box-shadow: 10px 10px 5px dimgrey;
+  box-shadow: 10px 10px 5px dimgrey; }
+  .card:hover {
+    -webkit-transition: 01s;
+    -o-transition: 01s;
+    transition: 01s;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    /*  */ }
   .card img {
     margin: 0 auto;
     width: 100%; }

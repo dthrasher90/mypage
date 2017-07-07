@@ -36,9 +36,10 @@ ul{
   }
   a{
     text-decoration: none;
-    display: block;
+    float : left;
     text-align: center;
     color: white;
+    display: block;
 
   }
 }
@@ -130,6 +131,9 @@ ul{
 
 }
 
+.cardholder{
+  margin: 0 auto;
+}
 .card-group{
   margin: 0 auto;
   padding: 15px;
@@ -141,11 +145,20 @@ float: left;
 font-family: lato;
 font-size: 18px;
 font-weight: bolder;
-background-color: lightcyan;
-color: saddlebrown;
-border: 3px solid darkslategrey;
+background-color: #eee;
+color: slategrey;
 padding: 1px;
-
+margin-left: 10px;
+margin-right: 10px;
+box-shadow: 10px 10px 5px dimgrey;
+&:hover{
+  
+  
+  transition: 01s;
+  transform:scale(1.15);
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+/*  */}
   img{
     margin: 0 auto;
     width: 100%;
