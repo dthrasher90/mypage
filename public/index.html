@@ -15,8 +15,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/ffafbe8b8e.js"></script>
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/main.css">
@@ -27,12 +27,12 @@
 
 
 
-<div class="container no-gutters">
+<div class="container">
   <div class="row">
 
 
-            <nav class="navbar navbar">
-                <ul class="clearfix">
+            <nav class="navbar navbar clearfix">
+                <ul>
                     <li> <a href="#">Home </a></li>
                     <li><a href="#about">About </a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
@@ -43,7 +43,7 @@
             <div id="titlePage">
               <div class="jumbotron jumbotron-fluid" style="background-image: url(styles/utah10.jpg); background-size: 100%;">
                 <div class="container">
-                  <h1 class="display-3">Fluid jumbotron</h1>
+               
                   <p class="lead"></p>
                   <div class="title">
                       <h1>Drew Thrasher</h1>
@@ -54,11 +54,13 @@
 
 
             </div>
+
+ <div class="container">
   <div id="about">
 
           <h1>About Me</h1>
 
-          <p><img src="styles/images/family2.jpg" height="300px" width="240px">My name is Drew Thrasher, thanks for stopping by. I am a web developer and my family and I currently reside in Fairbanks, AK. Very shortly, we will be relocating to Salt
+          <p><img src="styles/images/family2.jpg" class= "rounded" height="300px" width="240px">My name is Drew Thrasher, thanks for stopping by. I am a web developer and my family and I currently reside in Fairbanks, AK. Very shortly, we will be relocating to Salt
               Lake City, Utah to establish roots. We are very excited about the move and the chance to explore everything Utah has to offer. We are familiar with the area, having lived in Vegas for an extended time (my wife is a local). We are most
               excited of the amount of outdoor activity Utah provides, everything from hiking and camping to skiing. I also enjoy watching NFL and college football games (Carolina Panthers, since'95!) and I drink way to much coffee!</p>
 
@@ -69,23 +71,25 @@
               in the footer.  Feel free to drop me a line! </br>  <a href="mailto:dthrasher90@gmail.com?Subject=Hello%20again">  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></p>
 
   </div>
+</div>
+  
+  
 
+<div class="conainer">
+  <div class="row">
 
-        <div id="portfolio">
-          <div class="conainer">
-            <div class="row">
+    <div id="portfolio">
+      <h1>Portfolio</h1>
+        <div class = "col-md-12 col-xs-12">
 
-                <h1>Portfolio</h1>
-
-
-                <div class="`col-md-12 cardholder">
+           <!-- <div class="`col-md-12 cardholder clearfix"> -->
 
 
                 <div class="card" >
                  <a href="https://football4.herokuapp.com/" > <img class="card-img-top" src="styles/headcoach.jpg" style: "height=300px; width= 300px;"> </a>
                   <div class="card-block">
                     <h4 class="card-title">Head Coach</h4>
-                    <p class="card-text">The only head coach RPG on the web! Uses Phaser framework for animations.</p>
+                    <p class="card-text">The only head coach RPG on the web! </p>
 
                     <div class="icons">
                        <img src="styles/images/js.png" style="height:30px;width:30px">
@@ -137,14 +141,21 @@
                          <img src="styles/images/mean.jpg" style="height:30px;width:60px">
                          <img src="styles/images/bootstrap.png" style="height:30px;width:30px">
                      </div>
-                    </div>
+                    <!-- </div> -->
                   </div>
                 </div>
-                </div>
- <!-- end portfolio brackets -->
               </div>
             </div>
+ <!-- end portfolio brackets -->
 
+
+
+              </div>
+            </div>
+  
+
+  <div class="container"> 
+      <div class="row"> 
 
     <div id="blog">
 
@@ -165,7 +176,8 @@
 
       </div>
     </div>
-
+  </div>
+</div>
 </body>
 
 </html>
